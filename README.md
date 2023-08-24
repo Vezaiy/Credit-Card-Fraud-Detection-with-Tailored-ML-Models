@@ -1,17 +1,19 @@
 # Credit_Card_Fraud
 
-## Case Study
-- E-commerce has really changed everything, it gives us the chance to increase our sales but it exposes us to hackers and other types of frauds.
-- For this case study we will consider a E-commerce book store which has sold thousands in the last few years.
-- We are going to use transaction history for this project.
-- We are going to use a publicly available dataset for this project with real credit-card transactions that have been anonymized.
-- one of the biggest problem of credit card is that anyone can steal 15 or 16 digit card number with security number and expiration date.
-- Our job will be to tell apart that the transaction was from the real user who owns the credit card or the transaction was from the stolen credit card.
-- One of the major issues will be that most of the transactions will be non-fraudulent which means it will be difficult for us to detect underlying patterns in the infromation available.
-- It will make our dataset highly imbalance.
-- We will need to apply different sampling techniques and use different metrics.
-- It is estimated that only 0.1% of online credit card transactions are fraudulent.
-- But given the volume of transactions that occur everyday that means a lot of money.
-- We need to build the classifier system based on the dataset that can tell wether the classifier is fraudulent or non-fraudulent.
-- We will build a deep learning network and we are going to apply more traditional machine learning algorithm such as random forest.
-- We will consider only 2 labels in our classifier '0' for non-fraudulent transaction and '1' for fraud-leunt Transactions.
+Introduction:
+In today's digital age, the rise of e-commerce has revolutionized business operations, allowing for increased sales and convenience. However, this growth comes hand in hand with the heightened risk of fraudulent activities and cyber threats. This case study delves into the realm of an e-commerce book store, a thriving platform that has witnessed substantial sales over the years. The objective here is to leverage transaction history data, specifically utilizing a publicly available dataset comprising anonymized real credit card transactions.
+
+Challenge:
+E-commerce's Achilles' heel lies in the vulnerability of credit card information. The exposure of 15 to 16-digit card numbers, coupled with security codes and expiration dates, creates an avenue for potential exploitation by malicious entities. The primary focus of this project revolves around distinguishing between genuine transactions from credit card owners and transactions involving stolen credit card details.
+
+A Complex Imbalance:
+One of the central challenges we face stems from the inherent nature of credit card transactions. A majority of these transactions are legitimate, making it arduous to uncover subtle patterns within the available data. Consequently, the dataset exhibits a significant class imbalance, demanding the application of diverse sampling techniques and evaluation metrics.
+
+The Scale of the Issue:
+Statistics reveal that a mere 0.1% of online credit card transactions are identified as fraudulent. However, given the sheer volume of daily transactions, even this minuscule percentage amounts to substantial financial losses. To mitigate this challenge, our goal is to construct a robust classifier system using the provided dataset. This classifier will discern between fraudulent and non-fraudulent transactions, classifying them as '1' and '0,' respectively.
+
+Approach:
+To address this intricate problem, we plan to adopt a multifaceted approach. We will develop a deep learning network and complement it with conventional machine learning algorithms such as the Random Forest. This hybrid strategy will allow us to leverage the strengths of both paradigms and enhance our chances of accurate fraud detection.
+
+Conclusion:
+In our pursuit of building a reliable credit card fraud detection system, we have explored the nuances of e-commerce transactions and the vulnerabilities they entail. The crux of our endeavor lies in creating a robust classifier capable of accurately identifying fraudulent transactions, a task essential for safeguarding both customers and the e-commerce platform. Through the systematic deployment of deep learning and traditional machine learning models, we intend to enhance fraud detection rates and bolster the security of online financial transactions.
